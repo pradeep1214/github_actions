@@ -1,0 +1,14 @@
+name: multiple job in side jobs
+
+on:
+  workflow_dispatch:
+    
+jobs:
+  job-1:
+    runs-on: ubuntu-24-04
+    steps:
+      - run: echo "job A"
+  job-2:
+    runs-on: ubuntu-24-04
+    steps:
+     - run: echo "job B"
