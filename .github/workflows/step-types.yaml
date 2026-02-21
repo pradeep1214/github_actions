@@ -13,4 +13,9 @@ jobs:
     steps:
       - run: print ("running python script")
         shell: python
-        
+  say-hello-action:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/hello-world-javascript-action@79ac0da13ee392da3fdd151813d5ce4658cb7e27
+        with:
+         who-to-greet: "from the third party actions tag"
