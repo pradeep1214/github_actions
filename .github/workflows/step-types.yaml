@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - run: echo "running bash script"
-   say-python-script:
-     run-on: ubuntu-24.04
-     steps:
+  say-python-script:
+    runs-on: ubuntu-24.04
+    steps:
       - run: print ("running python script")
         shell: python
         
