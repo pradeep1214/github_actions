@@ -7,8 +7,8 @@ jobs:
   say-hello-bash:
     runs-on: ubuntu-24.04
     steps:
-      -run: echo "running bash script"
-  say-python-script:
+      - run: echo "running bash script"
+   say-python-script:
      run-on: ubuntu-24.04
      steps:
       - run: print ("running python script")
