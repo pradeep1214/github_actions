@@ -1,0 +1,10 @@
+name: my self hosted runners
+
+on:
+  workflow_dispatch:
+
+jobs:
+  self-hosted-job-1:
+   runs-on: self-hosted-job-1
+   steps:
+    - run: echo "my first self hosted runner"
