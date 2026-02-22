@@ -5,6 +5,6 @@ on:
 
 jobs:
   self-hosted-job-1:
-   runs-on: self-hosted-job-1
+   runs-on: ubuntu-20.04
    steps:
     - run: echo "my first self hosted runner"
